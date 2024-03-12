@@ -13,6 +13,18 @@
     </ul>
 </template>
 
+<script setup>
+    // composition api
+    import {defineProps} from 'vue'
+
+    const props = defineProps({
+        transactions: {
+            type: Array,
+            required: true
+        }
+    })
+</script>
+
 
     <!-- //const transactions = [
     //    {id: 1, text: 'Flower', amount: -19.99},
