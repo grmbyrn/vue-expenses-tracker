@@ -15,8 +15,6 @@
 
 <script setup>
     // composition api
-    import {defineProps} from 'vue'
-
     const props = defineProps({
         transactions: {
             type: Array,
